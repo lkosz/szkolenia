@@ -16,6 +16,8 @@ Listingi są w katalogu `puppet_listingi`, żeby łatwiej było skopiować do ed
 
 Środowisko testowe można sobie ustawić na vagrancie, pomocna może być wtyczka `vagrant-ssh`, żeby mieć dostęp do katalogu z kodem z wnętrza maszyny wirtualnej.
 
+Tags: szkolenie z puppeta, podręcznik do puppeta, puppet training polish, puppet book polish, puppet handbook polish
+
 ---
 
 ## Linux
@@ -23,6 +25,8 @@ Listingi są w katalogu `puppet_listingi`, żeby łatwiej było skopiować do ed
 PL version only
 
 Podręcznik jest skrótem i najważniejszymi informacjami do warsztatów na żywo, ale uważam, że całkiem zgrabnie robi wprowadzenie do Linuksa dla kogoś, kto nie miał z nim styczności. Osoby mające większe potrzeby znajdą w nim ewentualnie kilka ciekawostek.
+
+Tags: szkolenie z linuksa, linuks, linux, podstawy linuksa, wprowadzenie do linuksa, linux training polish, linux basics polish, linux book polish 
 
 ---
 
@@ -33,3 +37,5 @@ PL version only
 Wprowadzenie do dockera obejmujące poziom podstawowy i średni. Dobry do samodzielnej nauki. Myślę, że zdecydowana większość osób pracujących z Dockerem nie wyjdzie potrzebami poza ten podręcznik, a zadania z odpowiedziami pozwolą utrwalić wiedzę. Na warsztatach omawiałem jeszcze uruchamianie aplikacji z interfejsem graficznym w dockerze, ale nie ostały mi się notatki z tego. A szkoda...
 
 Prywatnie jestem z tego dokumentu najbardziej dumny, zwłaszcza z tych małych odnośników do odpowiedzi przy zadaniach. Zgrabne zrobienie tych czerwonych kwadracików w LaTex'u w taki sposób, żeby kod dokumentu był wygodny i przejrzysty, zajęło mi więcej czasu, niż napisanie samego tekstu i zadań :D
+
+Tags: szkolenie z dockera, podręcznik do dockera, warsztaty z dockera, zadania z dockera, polish docker training, docker book, docker handbook, docker workshops
