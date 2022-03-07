@@ -1,0 +1,2 @@
+type puppet-apply
+type puppet-apply-noop

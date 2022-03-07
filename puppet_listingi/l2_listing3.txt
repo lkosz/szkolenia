@@ -1,0 +1,6 @@
+file {'/tmp/sss/zzz':
+  ensure => file,
+}->
+file{'/tmp/sss':
+  ensure => directory,
+}

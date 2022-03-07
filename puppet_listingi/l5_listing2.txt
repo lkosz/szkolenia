@@ -1,0 +1,37 @@
+$wiekszy_balagan = [
+  {
+    fla => [
+      'sii',
+      'mumu',
+      {
+        zooo => {
+          wee => {
+            faa => 'sii,
+          }
+        },
+        fii => {
+          sem => {
+            { 
+              fods => {
+                fro > [
+                  [ 
+                    [ 
+                      { 
+                        weece => 'susu',
+                      }
+                    ],
+                    [ 
+                      { 
+                        fafa => 'soso',
+                      },
+                    ]
+                  ]
+                ],
+              },
+            },
+          ],
+        },
+      },
+    ],
+  },
+]

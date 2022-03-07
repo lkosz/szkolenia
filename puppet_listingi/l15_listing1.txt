@@ -1,0 +1,12 @@
+:backends:
+  - yaml
+
+:hierarchy:
+  - host/%{fqdn}
+  - domain/%{domain}
+  - common
+
+:yaml:
+   :datadir: /vagrant/hieradata
+
+:merge_behavior: deeper

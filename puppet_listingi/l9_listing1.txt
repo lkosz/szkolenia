@@ -1,0 +1,5 @@
+$hash1 = {
+  avkj => 'adcfoj',
+  vskj => 'edfijv',
+  rucs => 'wwncuw',
+}

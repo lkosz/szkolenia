@@ -1,0 +1,12 @@
+$tablica = [
+  ['au7eCeep', 'wae1aSho'],
+  ['thi7Riek', 'aeKie3ah'],
+  ['paH1Aimo', 'Aihae5Ah'],
+  ['teewaf9X', 'Shei6eit'],
+  ['Loo6igh0', 'Aig1UShe'],
+  ['Ieme2IeY', 'voLohsh8'],
+  ['eevaiMa1', 'Gu7aphie'],
+  ['ik4Cheip', 'Iegah8ye'],
+  ['adaig7Ei', 'Eihawa7a'],
+  ['Quiquie5', 'wohvaCh7'],
+]

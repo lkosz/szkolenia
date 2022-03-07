@@ -1,0 +1,12 @@
+file{'/tmp/plik1'
+  ensure => file,
+}
+
+file ('/tmp/plik2':
+  ensure => file,
+)
+
+file{'/tmp/plik3'
+  ensure => file
+  mode   => 0700
+}

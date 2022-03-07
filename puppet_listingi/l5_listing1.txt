@@ -1,0 +1,36 @@
+$balagan = [
+  {
+    zooo => {
+      wee => {
+        faa => 'sii',
+      }
+    },
+    fii => {
+      sem => [
+        {
+          fods => 'gem',
+        },
+      ],
+    },
+  },
+  {
+    fro => [
+      [
+        [
+          {
+            weece => 'susu',
+          }
+        ],
+        [
+          {
+            fafa => 'soso',
+          },
+        ]
+      ]
+    ],
+    fla => [
+      'sii',
+      'mumu',
+    ],
+  },
+]

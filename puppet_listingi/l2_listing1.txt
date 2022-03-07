@@ -1,0 +1,13 @@
+file{'/tmp/plik1':
+  ensure => file,
+}
+
+file{'pipipi lalala':
+  ensure => file,
+  name   => '/tmp/plik1',
+}
+
+file{'pipipi lalala':
+  ensure => file,
+  name   => '/tmp/plik2',
+}

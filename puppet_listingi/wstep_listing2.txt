@@ -1,0 +1,13 @@
+VAGRANTFILE_API_VERSION = "2"
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+    config.vm.define "host_centos" do |host_centos|
+        host_centos.vm.box = "<centos7 image>.box"
+        host_centos.vm.provider "virtualbox" do |v|
+                v.memory = 2048
+                v.cpus = 2
+                end
+        host_centos.ssh.pty = true
+        host_centos.vm.network "private_network", ip: "192.168.13.11"
+        host_centos.vm.provision :shell, :path => "bootstrap.sh", :args => ""
+    end
+end

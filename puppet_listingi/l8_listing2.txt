@@ -1,0 +1,12 @@
+$hash2 = {
+  avkj => 'adcfoj',
+  vskj => 'edfijv',
+  rucs => [
+    'daflj',
+    'adflj',
+  ],
+  dscd => {
+    sdu => 'wsdew',
+    esa => 'gbgrc'
+  },
+}

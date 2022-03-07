@@ -1,0 +1,33 @@
+file{'/tmp/f1':
+  ensure  => file,
+  require => [
+    File['/tmp/f2'],
+    Service['sshd'],
+  ],
+}
+
+file{'/tmp/f2':
+  ensure => file,
+  require  => [
+    Service['sshd'],
+    File['/tmp/f3'],
+  ],
+}
+
+file{'/tmp/f3':
+  ensure => file,
+  require => [
+    File['/tmp/f1'],
+    Service['sshd'],
+  ],
+}
+
+service{'sshd':
+  ensure    => running,
+  subscribe => Package['ruby-devel'],
+  before    => File['/tmp/f3']
+}
+
+package{'ruby-devel':
+  ensure => present,
+}

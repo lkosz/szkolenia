@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "sudo su -" >> /home/vagrant/.bashrc
+echo "exit" >> /home/vagrant/.bashrc
+
+echo "alias puppet-apply='puppet apply --hiera_config=/vagrant/hieradata/hiera.yaml --modulepath=/vagrant/modules --verbose /vagrant/manifests/site.pp --show_diff'" >> /root/.bashrc
+echo "alias puppet-apply-noop='puppet apply --hiera_config=/vagrant/hieradata/hiera.yaml --modulepath=/vagrant/modules --verbose /vagrant/manifests/site.pp --show_diff --noop'" >> /root/.bashrc
+echo "alias puppet-check='puppet-lint --no-80chars-check /vagrant; echo; echo; echo; find /vagrant/hiera* -type f -name \"*.yaml\" | xargs yaml-lint; echo '" >> /root/.bashrc
+
+rm -rf /etc/puppetlabs/code/environments/production
+ln -s /vagrant /etc/puppetlabs/code/environments/production

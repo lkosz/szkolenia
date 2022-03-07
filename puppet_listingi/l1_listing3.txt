@@ -1,0 +1,5 @@
+file{'/tmp/plik':
+  ensure  => file,
+  content => 'zzz',
+  mode    => '0700',
+}
